@@ -339,3 +339,9 @@ providers:
     fontcdn: loli
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css'
+
+sitemap:
+  path: 
+    - sitemap.xml
+  tags: true
+  categories: true
