@@ -64,3 +64,5 @@ ignore: null
 theme: icarus
 deploy:
   type: 'git'
+  repo: git@github.com:edgexyz/edgexyz.github.io.git
+  branch: gh-pages
