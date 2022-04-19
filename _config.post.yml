@@ -1,0 +1,8 @@
+widgets:
+    # Profile widget configurations
+    -
+        position: left
+        type: recent_posts
+    -
+        position: left
+        type: tags

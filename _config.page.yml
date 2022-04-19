@@ -1,0 +1,26 @@
+widgets:
+    # Profile widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: profile
+        author: ICE.sh
+        author_title: Programmer, Gamer...?
+        location: '[::]'
+        avatar: /img/avatar.jpg
+        avatar_rounded: false
+        gravatar: 
+        follow_link: https://t.me/icesh_channel
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: https://github.com/edgexyz
+            Twitter:
+                icon: fab fa-twitter
+                url: https://twitter.com/ICEsh511
+            Telegram:
+                icon: fab fa-telegram
+                url: https://t.me/icesh_channel
+            Email:
+                icon: fas fa-envelope
+                url: mailto://ice@icesh.me
