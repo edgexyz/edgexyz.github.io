@@ -9,3 +9,4 @@ public/
 .deploy*/
 _multiconfig.yml
 init/
+.vscode/
