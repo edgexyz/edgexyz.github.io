@@ -22,6 +22,8 @@ tags:
 
 WireGuard 利用虚拟网卡来封装并转发流量，我们需要配置路由来保证合适的公网出口及流量转发规则。在 Linux 中，这些功能可以由 `IPTABLES` 实现，而在 macOS (FreeBSD) 中，则由 `pfctl` 达成。
 
+<!--more-->
+
 （先写个 intro 吧还是要复习背诵 ex+++ 的科目的咕咕咕咕咕）
 
 ## 参考资料
