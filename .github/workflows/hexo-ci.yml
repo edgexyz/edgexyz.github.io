@@ -13,14 +13,14 @@ jobs:
         node-version: [14.x]
 
     steps:
-      - name: Restore file modification time
-        run: |
-          "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
-
       - uses: actions/checkout@v2
         with: 
           submodules: recursive
           fetch-depth: 0
+
+      - name: Restore file modification time
+        run: |
+          "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
