@@ -137,7 +137,13 @@ article:
     update_time: true
     # Article licensing block
     licenses:
-        CC BY-NC 4.0:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: https://creativecommons.org/licenses/by-nc/4.0/
+        Attribution:
+            icon: fab fa-creative-commons-by
+            url: https://creativecommons.org/licenses/by-nc/4.0/
+        Noncommercial:
             icon: fab fa-creative-commons-nc
             url: https://creativecommons.org/licenses/by-nc/4.0/
 # Search plugin configurations
