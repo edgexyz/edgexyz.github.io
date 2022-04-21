@@ -4,7 +4,8 @@ categories: Programming
 cover: /img/70988770_p1.jpg
 thumbnail: /img/70988770_p1.jpg
 date: 2022-04-21 20:18:03
-updated: 2022-04-21 23:02:12
+updated: 2022-04-21 23:11:53
+toc: true
 tags:
  - Linux
  - macOS
