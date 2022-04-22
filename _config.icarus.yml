@@ -246,6 +246,9 @@ widgets:
             Email:
                 icon: fas fa-envelope
                 url: mailto:ice@icesh.me
+            RSS:
+                icon: fas fa-rss
+                url: /atom.xml
     -
         position: left
         type: toc
