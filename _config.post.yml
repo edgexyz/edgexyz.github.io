@@ -17,7 +17,7 @@ widgets:
         index: true
     -
         position: left
-        type: recent_posts
-    -
-        position: left
         type: tags
+    -
+        position: right
+        type: recent_posts
