@@ -15,6 +15,7 @@ widgets:
         type: toc
         # Whether to show the index of each heading
         index: true
+        collapsed: true
     -
         position: left
         type: tags
