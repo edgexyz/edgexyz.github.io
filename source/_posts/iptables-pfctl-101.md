@@ -20,7 +20,7 @@ tags:
 
 ![因为付费习惯良好，都变成 premier account 叻](/img/buyvm-lu.png)
 
-跨大西洋光缆虽然带宽充足，但是架不住双程至少 200ms 的物理极限延迟。我找到了[这篇文章](https://barrowclift.me/post/wireguard-server-on-macos)，利用 MACos 搭建本地 [WireGuard](wireguard.com) server 并组网，实现安全且私密的观影、做种体验，并让我的老旧 MB（或者 trade-in 换到的 M1 mac mini）继续发光发热～
+跨大西洋光缆虽然带宽充足，但是架不住双程至少 200ms 的物理极限延迟。我找到了[这篇文章](https://barrowclift.me/post/wireguard-server-on-macos)，利用 MACos 搭建本地 [WireGuard](https://wireguard.com) server 并组网，实现安全且私密的观影、做种体验，并让我的老旧 MB（或者 trade-in 换到的 M1 mac mini）继续发光发热～
 
 WireGuard 利用虚拟网卡来封装并转发流量，我们需要配置路由来保证合适的公网出口及流量转发规则。在 Linux 中，这些功能可以由 `IPTABLES` 实现，而在 macOS (FreeBSD) 中，则由 `pfctl` 达成。
 
