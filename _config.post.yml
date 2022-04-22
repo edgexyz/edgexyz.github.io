@@ -17,8 +17,8 @@ widgets:
         index: true
         collapsed: true
     -
-        position: left
-        type: tags
-    -
         position: right
         type: recent_posts
+    -
+        position: right
+        type: tags
