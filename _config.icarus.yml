@@ -355,5 +355,4 @@ providers:
 sitemap:
   path: 
     - sitemap.xml
-  tags: true
   categories: true
