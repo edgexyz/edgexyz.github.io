@@ -168,6 +168,8 @@ comment:
     highlight: true                               # Optional
     math: false                                   # Optional
     copyright: true                               # Optional
+    locale:
+      placeholder: '评论头像由 libravatar 进行支持'
 #    shortname: ''
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
@@ -200,10 +202,10 @@ donates:
         # Currency code
 #        currency_code: USD
     # Wechat donate button configurations
-#    -
-#        type: wechat
+    -
+        type: wechat
         # Wechat qrcode image URL
-#        qrcode: ''
+        qrcode: /img/wechat-reward-code.jpg
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 #share:
