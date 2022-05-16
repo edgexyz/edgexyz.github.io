@@ -161,7 +161,7 @@ comment:
     lang: zh-CN                                   # Optional
     visitor: true                                 # Optional
     emoji:                                        # Optional
-      - 'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji'
+      - 'https://fastly.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji'
     dark: ""                                      # Optional
     required_meta: ['nick', 'mail']               # Optional
     login: enable                                 # Optional
