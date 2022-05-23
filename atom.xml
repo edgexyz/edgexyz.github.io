@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ICE.sh&#39;s Blog</title>
+  
+  
+  <link href="https://icesh.me/atom.xml" rel="self"/>
+  
+  <link href="https://icesh.me/"/>
+  <updated>2022-05-03T09:14:00.000Z</updated>
+  <id>https://icesh.me/</id>
+  
+  <author>
+    <name>ICE.sh</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>哔哩哔哩港澳台版初体验</title>
+    <link href="https://icesh.me/Life/bilibili-hmt-app/"/>
+    <id>https://icesh.me/Life/bilibili-hmt-app/</id>
+    <published>2022-04-29T08:39:39.000Z</published>
+    <updated>2022-05-03T09:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在某位朋友的提（晒）醒（图）下发现一直没有在除中/港/澳/台外 App Store 上线的 pilipili <a href="https://apps.apple.com/cn/app/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%E5%BC%B9%E5%B9%95%E7%95%AA%E5%89%A7%E7%9B%B4%E6%92%AD%E9%AB%98%E6%B8%85%E8%A7%86%E9%A2%91/id736536022">国内版</a> app 推出了疑似的<a href="https://apps.apple.com/us/app/bilibili-%E5%BC%B9%E5%B9%95%E6%96%B0%E7%95%AA%E9%AB%98%E6%B8%85%E5%8E%9F%E5%89%B5%E5%BD%B1%E7%89%87/id1517062289">港澳台特供版本</a>，因此有了<del>水</del>写这篇文章的契机。</p><span id="more"></span><h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h2><p><img src="/img/bilibilihmt/bilibilihmt-1.png"></p><p>如图，港澳台版 icon 的配色与国内版相反，为白底粉字；开发者为 <a href="https://opencorporates.com/companies/hk/2041176">HODE HK LIMITED / 香港幻電有限公司</a>，为开曼群岛 Bilibili Inc. 的全资子公司。<br>从开发日志可以看出，app 在去年就已经公开发布，推测是设置了 <code>unlisted</code> 来小范围灰度，<del>真有你的呢陈先生</del>，但因为未知原因提供了全球（可能除中国大陆）公开下载。</p><p><img src="/img/bilibilihmt/bilibilihmt-2.png" alt="可以看到只有两条评论，均为近两天（2021.4.28）刊登"></p><p>截至目前（2021.4.29），下载功能仍开放。</p><h2 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h2><p>发个暴论：<del>HMT版是最符合 Greater China 用户习惯的沉浸式 UGC 观看平台</del></p><p><img src="/img/bilibilihmt/bilibilihmt-ui.png" alt="在登录中国手机号的账号之前，下方栏目显示为繁体"></p><p>HMT 版 Bilibili 于下栏删除了 <code>发布视频</code> 及 <code>会员购</code> 入口，上方视频分类也只保留了推荐瀑布流、直播和 bangumi 的分类。个人信息页也砍掉了所有的附加功能，只留下了基本设置和帐号信息。</p><p><img src="/img/bilibilihmt/ugcs.png" alt="花里胡哨的友商..."></p><p>相比于<del>为了 KPI 明晃晃诱导用户发布短视频的</del> Bilibili CN 及 YouTube，HMT 撤除了所有视频发布及管理的选项，以及中国大陆限定<del>福利</del>骗点击量活动和商城。观影变得更加纯粹了，<del>也不妨碍后续加回来，又是一个 KPI</del>。</p><p>推荐瀑布流 HMT 同 CN 版一致，默认了双栏，同时移除了广告和标签卡推广（<del>同样可能加回来，不过按照现在的样子陈先生也没精力再开一整个新的销售/运营团队吧</del>）。一拉到底的推荐还是很舒服的。双栏也比 YouTube 的单栏穿插 community 内容的信息密度高多了，筛选起来也更高效。</p><p><img src="/img/bilibilihmt/hmt-bangumi.png"></p><p>番剧页<del>至少不是糊一个 h5 怼脸，还是有用 api 调用</del>，但是没有对 dark mode 进行适配仍是一大败点。</p><h2 id="法律与合规"><a href="#法律与合规" class="headerlink" title="法律与合规"></a>法律与合规</h2><p>Bilibili HMT 与国内版<strong>软件</strong>适用了不同的用户政策与隐私协议，但<strong>具体账号适用的协议与法律应当参照注册使用的手机区号</strong>。</p><p>值得注意的是，两版的 TOS 均设置了严格的反爬虫/ API 调用的条款，不过目前而言上海幻电及其关联公司并没有正式使用这一条款。</p><p>Bilibili HMT:</p><blockquote><p>…<br>4.使用规则<br>…<br><strong>4.3.15未经哔哩哔哩事先明確书面许可，以任何方式（包括但不限于机器人程式、蜘蛛程式、爬虫程式等任何自动程序、脚本、软件）和任何理由自行或委托他人、协助他人获取平台的服务、內容、数据；</strong><br>…</p></blockquote><p>Bilibili CN:</p><blockquote><p>…<br>4.使用规则<br>…<br><strong>4.2.11 未经哔哩哔哩事先明确书面许可，以任何方式（包括但不限于机器人软件、蜘蛛软件、爬虫软件等任何自动程序、脚本、软件）和任何理由自行或委托他人、协助他人获取平台的服务、内容、数据；</strong><br>…</p></blockquote><h3 id="HMT"><a href="#HMT" class="headerlink" title="HMT"></a>HMT</h3><p>针对 HMT 软件，适用<a href="https://www.bilibili.com/blackboard/protocal/international_hans.html">嗶哩嗶哩使用協議</a>与<a href="https://www.bilibili.com/blackboard/protocal/international_hans_privacy.html">哔哩哔哩隐私政策</a>，且用户与<strong>HODE HK LIMITED（香港幻电有限公司）</strong>签约。</p><p>然而 TOS 强调了用户应<strong>遵守本协议准据法地法律及您所在地的法律</strong>，而协议适用<strong>中华人民共和国大陆地区法律</strong>。</p><blockquote><p>…<br>4.使用规则<br>…<br><strong>4.1用户在使用哔哩哔哩服务的过程中，应遵守本协议准据法地法律及您所在地的法律。</strong><br>…<br>12.法律适用和管辖<br><strong>12.1 本协议的生效、履行、解释及争议的解决均适用中华人民共和国大陆地区法律。</strong>…<br>…</p></blockquote><h3 id="CN"><a href="#CN" class="headerlink" title="CN"></a>CN</h3><p>适用<a href="https://www.bilibili.com/blackboard/account-useragreement.html">哔哩哔哩弹幕网用户使用协议</a>及<a href="https://www.bilibili.com/blackboard/privacy-policy.html">哔哩哔哩隐私政策</a>，与<strong>上海宽娱数码科技有限公司及其关联公司</strong>签约。</p><p>除了反爬虫外条款都比较标准…</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><del>水了不少字数</del></p><p>目前的哔哩哔哩 HMT 使用体验还比较良好，嗯…</p><p><del>未来可期</del><br>b 站可能会____，但绝不会____。</p><p>The end.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;在某位朋友的提（晒）醒（图）下发现一直没有在除中/港/澳/台外 App Store 上线的 pilipili &lt;a href=&quot;https://apps.apple.com/cn/app/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%E5%BC%B9%E5%B9%95%E7%95%AA%E5%89%A7%E7%9B%B4%E6%92%AD%E9%AB%98%E6%B8%85%E8%A7%86%E9%A2%91/id736536022&quot;&gt;国内版&lt;/a&gt; app 推出了疑似的&lt;a href=&quot;https://apps.apple.com/us/app/bilibili-%E5%BC%B9%E5%B9%95%E6%96%B0%E7%95%AA%E9%AB%98%E6%B8%85%E5%8E%9F%E5%89%B5%E5%BD%B1%E7%89%87/id1517062289&quot;&gt;港澳台特供版本&lt;/a&gt;，因此有了&lt;del&gt;水&lt;/del&gt;写这篇文章的契机。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Life" scheme="https://icesh.me/categories/Life/"/>
+    
+    
+    <category term="Bilibili" scheme="https://icesh.me/tags/Bilibili/"/>
+    
+    <category term="Entertainment" scheme="https://icesh.me/tags/Entertainment/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IPTABLES / pfctl 学习笔记</title>
+    <link href="https://icesh.me/Programming/iptables-pfctl-101/"/>
+    <id>https://icesh.me/Programming/iptables-pfctl-101/</id>
+    <published>2022-04-21T12:18:03.000Z</published>
+    <updated>2022-04-22T03:43:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>全球统考取消了；校内最终考试也改为了线上，按照老师的口径整体的难度也不会很大（exept for econ and bio qwq）。反正，总算有时间为日后大学生活做准备了。</p><p>作为一枚不专业的 ACG 爱好者，稳定的获取并观看（不一定最新的）资源的途径是必要的。同时，考虑到留学国家复杂的法律责任，我早早准备了 <a href="buyvm.net">Buyvm</a> Luxembourg 无限流量出口机。</p><p><img src="/img/buyvm-lu.png" alt="因为付费习惯良好，都变成 premier account 叻"></p><p>跨大西洋光缆虽然带宽充足，但是架不住双程至少 200ms 的物理极限延迟。我找到了<a href="https://barrowclift.me/post/wireguard-server-on-macos">这篇文章</a>，利用 MACos 搭建本地 <a href="https://wireguard.com/">WireGuard</a> server 并组网，实现安全且私密的观影、做种体验，并让我的老旧 MB（或者 trade-in 换到的 M1 mac mini）继续发光发热～</p><p>WireGuard 利用虚拟网卡来封装并转发流量，我们需要配置路由来保证合适的公网出口及流量转发规则。在 Linux 中，这些功能可以由 <code>IPTABLES</code> 实现，而在 macOS (FreeBSD) 中，则由 <code>pfctl</code> 达成。</p><span id="more"></span><p>（先写个 intro 吧还是要复习背诵 ex+++ 的科目的咕咕咕咕咕）</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://barrowclift.me/post/wireguard-server-on-macos">https://barrowclift.me/post/wireguard-server-on-macos</a></li><li><a href="https://murusfirewall.com/Documentation/OS%20X%20PF%20Manual.pdf">https://murusfirewall.com/Documentation/OS%20X%20PF%20Manual.pdf</a></li><li><a href="https://linux.die.net/man/8/iptables">https://linux.die.net/man/8/iptables</a></li></ul><h2 id="封面来源"><a href="#封面来源" class="headerlink" title="封面来源"></a>封面来源</h2><ul><li>阿蟬 - log <a href="https://pixiv.net/i/70988770">https://pixiv.net/i/70988770</a></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;全球统考取消了；校内最终考试也改为了线上，按照老师的口径整体的难度也不会很大（exept for econ and bio qwq）。反正，总算有时间为日后大学生活做准备了。&lt;/p&gt;
+&lt;p&gt;作为一枚不专业的 ACG 爱好者，稳定的获取并观看（不一定最新的）资源的途径是必要的。同时，考虑到留学国家复杂的法律责任，我早早准备了 &lt;a href=&quot;buyvm.net&quot;&gt;Buyvm&lt;/a&gt; Luxembourg 无限流量出口机。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/buyvm-lu.png&quot; alt=&quot;因为付费习惯良好，都变成 premier account 叻&quot;&gt;&lt;/p&gt;
+&lt;p&gt;跨大西洋光缆虽然带宽充足，但是架不住双程至少 200ms 的物理极限延迟。我找到了&lt;a href=&quot;https://barrowclift.me/post/wireguard-server-on-macos&quot;&gt;这篇文章&lt;/a&gt;，利用 MACos 搭建本地 &lt;a href=&quot;https://wireguard.com/&quot;&gt;WireGuard&lt;/a&gt; server 并组网，实现安全且私密的观影、做种体验，并让我的老旧 MB（或者 trade-in 换到的 M1 mac mini）继续发光发热～&lt;/p&gt;
+&lt;p&gt;WireGuard 利用虚拟网卡来封装并转发流量，我们需要配置路由来保证合适的公网出口及流量转发规则。在 Linux 中，这些功能可以由 &lt;code&gt;IPTABLES&lt;/code&gt; 实现，而在 macOS (FreeBSD) 中，则由 &lt;code&gt;pfctl&lt;/code&gt; 达成。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Programming" scheme="https://icesh.me/categories/Programming/"/>
+    
+    
+    <category term="Linux" scheme="https://icesh.me/tags/Linux/"/>
+    
+    <category term="macOS" scheme="https://icesh.me/tags/macOS/"/>
+    
+    <category term="WireGuard" scheme="https://icesh.me/tags/WireGuard/"/>
+    
+    <category term="networks" scheme="https://icesh.me/tags/networks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://icesh.me/uncategorized/hello-world/"/>
+    <id>https://icesh.me/uncategorized/hello-world/</id>
+    <published>2022-04-19T02:46:00.000Z</published>
+    <updated>2022-04-22T02:28:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Finally fixed the exhausting <code>.svg</code> file.<br>:(<br><img src="/img/solution.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Finally fixed the exhausting &lt;code&gt;.svg&lt;/code&gt; file.&lt;br&gt;:(&lt;br&gt;&lt;img src=&quot;/img/solution.png&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://icesh.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="css" scheme="https://icesh.me/tags/css/"/>
+    
+    <category term="init" scheme="https://icesh.me/tags/init/"/>
+    
+  </entry>
+  
+</feed>
