@@ -348,11 +348,13 @@ plugins:
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
-    cdn: loli
+    # cdn: loli
+    cdn: 75cdn
     # Name or URL template of the webfont CDN provider
     fontcdn: loli
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: "https://jsdelivr.icesh.me/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css"
+    # iconcdn: "https://jsdelivr.icesh.me/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css"
+    iconcdn: 75cdn
 
 sitemap:
   path: 
