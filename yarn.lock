@@ -1044,6 +1044,10 @@ bulma-stylus@0.8.0:
   version "0.8.0"
   resolved "https://registry.npmjs.org/bulma-stylus/-/bulma-stylus-0.8.0.tgz"
 
+bulma-stylus@0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/bulma-stylus/-/bulma-stylus-0.9.1.tgz#a3d52ed078eef35efe5229ff4d8fbddd65d17f32"
+
 bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz"
