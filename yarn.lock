@@ -1606,6 +1606,20 @@ hexo-component-inferno@^1.0.2:
     moment "^2.24.0"
     semver "^7.1.1"
 
+hexo-component-inferno@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/hexo-component-inferno/-/hexo-component-inferno-2.0.4.tgz#456ccff0102975c48d5b7d3b31f5d75e8778418f"
+  dependencies:
+    ajv "^8.8.2"
+    hexo "^6.0.0"
+    hexo-pagination "^2.0.0"
+    hexo-util "^2.2.0"
+    inferno "^7.3.3"
+    inferno-create-element "^7.3.3"
+    js-yaml "^4.1.0"
+    moment "^2.24.0"
+    semver "^7.1.1"
+
 hexo-deployer-git@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/hexo-deployer-git/-/hexo-deployer-git-3.0.0.tgz"
@@ -1752,9 +1766,9 @@ hexo-theme-icarus@^5.0.0-rc.1:
     moment "^2.22.2"
     semver ">=5.0.0"
 
-hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.5.0, hexo-util@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.npmjs.org/hexo-util/-/hexo-util-2.6.0.tgz"
+hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.2.0, hexo-util@^2.5.0, hexo-util@^2.6.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.7.0.tgz#13d09292e79d260db35399710b3e19f3995443a3"
   dependencies:
     bluebird "^3.5.2"
     camel-case "^4.0.0"
@@ -2485,19 +2499,19 @@ semver@7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/semver/-/semver-7.0.0.tgz"
 
-semver@>=5.0.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
+semver@>=5.0.0, semver@^7.1.1:
+  version "7.3.7"
+  resolved "https://registry.npmjs.org/semver/-/semver-7.3.7.tgz"
+  dependencies:
+    lru-cache "^6.0.0"
 
 semver@^5.1.0, semver@^5.6.0:
   version "5.7.1"
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
 
-semver@^7.1.1:
-  version "7.3.7"
-  resolved "https://registry.npmjs.org/semver/-/semver-7.3.7.tgz"
-  dependencies:
-    lru-cache "^6.0.0"
+semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
 
 send@0.18.0:
   version "0.18.0"
